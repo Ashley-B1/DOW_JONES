@@ -1,7 +1,9 @@
+import dataTable from "./components/dataTable";
+
 function App() {
   return (
     <div className="App">
-      hello world
+      <dataTable />
     </div>
   );
 }
