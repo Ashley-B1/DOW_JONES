@@ -1,4 +1,4 @@
-export default myAccounts = new Promise((resolve, reject) => {
+const myAccounts = new Promise((resolve, reject) => {
   setTimeout(() => {
     resolve([
       {
@@ -29,4 +29,4 @@ export default myAccounts = new Promise((resolve, reject) => {
   }, 300);
 })
 
-// console.log(myAccounts);
+export default myAccounts

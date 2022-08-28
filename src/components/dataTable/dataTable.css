@@ -1,3 +1,31 @@
 .data_container {
   border: solid red 2px;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.acct_sect {
+  border: solid green 2px;
+  height: fit-content;
+  margin-top: 1.2rem;
+  width: 90vw;
+}
+
+.acct_header *{
+  background-color: #F7F7F7;
+}
+
+.acct_header {
+  border-bottom: solid 1px #BBBBBB;
+  display: flex;
+  width: 100%;
+}
+
+.acct_title {
+  flex: 5;
+}
+
+.acct_bal {
+  flex: 5;
 }

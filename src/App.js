@@ -1,9 +1,9 @@
-import dataTable from "./components/dataTable";
+import DataTable from "./components/DataTable";
 
 function App() {
   return (
     <div className="App">
-      <dataTable />
+      <DataTable />
     </div>
   );
 }
