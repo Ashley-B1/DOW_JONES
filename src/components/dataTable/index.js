@@ -27,9 +27,9 @@ const DataTable = () => {
         <div className='acct_list'>
           {accounts.map((account) => (
             <div className='acct_item' key={account.id}>
-              <div className='acct_name'>{`${account.type} ${account.accountNumber}`}</div>
-              <div className='acct_bal'>
-                {account.balance}
+              <div className='acct_name'>{`${account.type} - ${account.accountNumber}`}</div>
+              <div className='bal_info '>
+                {`$${account.balance}`}
                 <span>{`${account.change} / ${account.changeTotal}`}</span>
               </div>
             </div>

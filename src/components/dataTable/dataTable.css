@@ -16,16 +16,42 @@
   background-color: #F7F7F7;
 }
 
-.acct_header {
-  border-bottom: solid 1px #BBBBBB;
+.acct_header{
+  background-color: #F7F7F7;
+  border-bottom: solid 2px #BBBBBB;
   display: flex;
+  justify-content: space-between;
   width: 100%;
+  border: yellow solid 2px;
 }
 
 .acct_title {
-  flex: 5;
+  /* flex: 5; */
 }
 
 .acct_bal {
+  /* flex: 5; */
+  border: dotted pink 2px;
+}
+
+.acct_list * {
+  background-color: #FFFFFF;
+}
+
+.acct_item {
+  border-bottom: solid 2px #d4cdcd;
+  display: flex;
+  width: 100%;
+  padding: .8rem;
+  justify-content: space-between;
+}
+
+/* .acct_name {
   flex: 5;
+} */
+
+.bal_info {
+  /* flex: 5; */
+  display: flex;
+  flex-direction: column;
 }
